@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+.cta {
+  padding: .5rem 1rem;
+  font-size: .9rem;
+  color: #FFFFFF;
+  background-color: #5B9AFF;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  padding: 1rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #202020;
+}
+
+header nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .nav-links .nav-link {
+  padding: 0rem 1rem;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+header nav .nav-links .nav-link a {
+  color: #202020;
+  -webkit-transition: all .5 ease;
+  transition: all .5 ease;
+}
+
+header nav .nav-links .nav-link a:hover {
+  color: #5B9AFF;
+}
+
+.hero {
+  padding: 1rem 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 1rem 0rem;
+}
+
+.hero p {
+  max-width: 70%;
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  line-height: 2.5rem;
+}
+
+.hero button {
+  margin: 1rem 0rem;
+  font-size: 1.5rem;
+}
+
+.page-top {
+  border-top: 1px solid #C2C2C2;
+  position: relative;
+}
+
+.page {
+  margin: 4rem 0rem;
+  padding: 3rem;
+}
+
+.wrapper h2 {
+  position: absolute;
+  color: #C2C2C2;
+  background-color: white;
+  font-size: .9rem;
+  padding: .5rem 2rem;
+  top: -4%;
+  font-weight: 300;
+}
+
+.wrapper .departments {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-items: center;
+  gap: 3rem;
+}
+
+.wrapper .departments .departments__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 500px;
+  margin: .8rem 0rem;
+}
+
+.wrapper .departments .departments__card .text h3, .wrapper .departments .departments__card .text p {
+  padding: .4rem 1rem;
+}
+
+.wrapper .departments .departments__card .text h3 {
+  font-size: 1.4rem;
+  color: #202020;
+  font-weight: bold;
+}
+
+.wrapper .departments .departments__card .text p {
+  font-size: .9rem;
+  color: #4F4F4F;
+  font-weight: normal;
+}
+
+.wrapper h2 {
+  position: absolute;
+  color: #C2C2C2;
+  background-color: white;
+  font-size: .9rem;
+  padding: .5rem 2rem;
+  top: -4%;
+  font-weight: 300;
+}
+
+.wrapper .professors {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(420px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  justify-items: center;
+  gap: 2rem;
+}
+
+.wrapper .professors .professors__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 400px;
+  margin: 1.5rem 0rem;
+}
+
+.wrapper .professors .professors__card .text h3, .wrapper .professors .professors__card .text p {
+  padding: .4rem 1rem;
+}
+
+.wrapper .professors .professors__card .text h3 {
+  font-size: 1.4rem;
+  color: #202020;
+  font-weight: bold;
+}
+
+.wrapper .professors .professors__card .text p {
+  font-size: .9rem;
+  color: #4F4F4F;
+  font-weight: normal;
+}
+
+footer {
+  width: 100%;
+  background-color: #F7F7F7;
+  padding: 1rem 3rem;
+}
+
+footer .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .wrapper ul li {
+  padding: 0rem 1rem;
+}
+/*# sourceMappingURL=style.css.map */
